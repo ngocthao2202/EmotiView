@@ -1,0 +1,100 @@
+.selectedImg{
+    display: flex;
+    justify-content: center;
+}
+
+
+input[type="file"] {
+    display: none;
+  }
+  .customUpload {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+
+.customButton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #B8C2CE;
+    gap: 12px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.inputBox{
+    border: 3px dashed #FF69B4;
+    width: 100%;
+    padding: 70px 0;
+    border-radius: 22px;
+}
+
+.imageIcon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.imageIconRules{
+    display: flex;
+    align-items: center;
+}
+
+.rules{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.eachRule{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+h2, h1, p{
+    margin: 0;
+}
+
+.uploadPart{
+    position: relative;
+}
+.bgImg{
+    position: absolute;
+    top: 0;
+}
+
+.uploadedImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.imageUpload{
+    width: 100%;
+    padding: 16px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    gap: 24px;
+}
+
+.deleteBut{
+    color: red;
+    border: none;
+    background-color: transparent;
+}

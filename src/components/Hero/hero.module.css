@@ -1,0 +1,50 @@
+.hero {
+  display: flex;
+  align-items: center;
+}
+.context {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 24px;
+}
+.context h4 {
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+}
+.context h1 {
+  font-size: 36px;
+  margin: 0;
+  font-weight: 500;
+}
+.context p {
+  margin: 0;
+  font-weight: 700;
+  font-size: 14px;
+}
+.context span {
+  font-weight: 400 !important;
+  color: #000;
+  font-size: 16px !important;
+}
+.context button {
+  width: fit-content;
+}
+.image {
+  width: 45%;
+}
+.image img {
+  width: 100%;
+}
+.image .background {
+  position: relative;
+}
+.image .background .img {
+  width: 65%;
+  position: absolute;
+  top: 10%;
+  left: 17%;
+}

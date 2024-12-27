@@ -1,0 +1,81 @@
+.predict {
+  padding: 80px 0;
+  background: linear-gradient(to right, #3c1272 0%, #e4319e 100%);
+}
+.predict .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.context {
+  width: 50%;
+  color: #fff;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.context h4 {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+}
+.context h1 {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0;
+}
+.context span {
+  color: #dbdbdb;
+  font-weight: 300;
+  margin: 0;
+}
+.steps {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.steps .eachStep {
+  display: flex;
+  gap: 16px;
+}
+.steps .eachStep .imageLine {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.steps .eachStep .imageLine img {
+  width: 100%;
+}
+.steps .eachStep .imageLine .line {
+  height: 100%;
+  border: 1px dashed #d0d0dd;
+}
+.steps .eachStep .content {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-size: 24px;
+  text-align: left;
+  padding-bottom: 24px;
+}
+.steps .eachStep .content h4 {
+  display: flex;
+  height: 50px;
+  margin: 0;
+  font-size: 18px;
+  align-items: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+.steps .eachStep .content span {
+  margin: 0;
+  font-size: 16px;
+  color: #fff;
+}

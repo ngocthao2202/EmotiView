@@ -1,0 +1,46 @@
+.emotion {
+  display: flex;
+  flex-direction: column;
+}
+.context {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.context h4 {
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+}
+.context h1 {
+  width: 100%;
+  font-size: 36px;
+  margin: 0;
+  font-weight: 500;
+}
+.context span {
+  width: 65%;
+  font-weight: 400 !important;
+  color: #000;
+  font-size: 16px !important;
+}
+.status {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 5%;
+  margin: 48px 0;
+}
+.status .eachEmotion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.status .eachEmotion .image {
+  width: 100%;
+}
+.status .eachEmotion .image img {
+  width: 100%;
+}

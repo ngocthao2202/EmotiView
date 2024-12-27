@@ -1,0 +1,12 @@
+.button {
+  width: fit-content;
+  background: linear-gradient(to right, #ed329c 0%, #3c1272 100%);
+  border: 0px;
+  border-radius: 10px;
+}
+.button p {
+  width: fit-content;
+  color: #ffffff;
+  font-weight: 700;
+  margin: 12px;
+}
